@@ -6,12 +6,30 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1",
+          "author": null,
+          "description": "Fixed: UnhandledPromiseRejectionWarning: Error: At least one option must be a string",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1",
+          "publishedOn": "2021-05-23T05:40:12.000Z",
+          "wordCount": 282,
+          "title": "v1.8.1"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0",
+          "author": null,
+          "description": "Changed: Smart summary truncation. When there is no dedicated summary (only Atom feed has it, and many sites don't use it) from the source, we check if the content/description (Both Atom and RSS) field is long enough to be full text. If so, it will be truncated into a \"pseudo\" summary. If not, we assume the source used the content field as summary, and it will be displayed in full length.\nThank you: @LooperXX.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0",
+          "publishedOn": "2021-05-23T05:12:08.000Z",
+          "wordCount": 341,
+          "title": "v1.8.0"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2",
           "author": null,
           "description": "⚠ Deprecated: To accommodate the monorepo setup, the node version in all templates/demos/examples has changed from 14 to 16. This is not a breaking change as our compile target is still node 14, and node 16 is backward compatible. We still recommend you start using node-version: \"16\" in your .github/workflows/update-feed.yaml today to get the performance/security improvements from the newer node. See example\nChore: Reorganize to monorepo with npm workspace.",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2",
           "publishedOn": "2021-05-17T05:32:19.000Z",
-          "wordCount": 340,
+          "wordCount": 336,
           "title": "v1.7.2"
         },
         {
@@ -76,24 +94,6 @@
           "publishedOn": "2021-05-05T05:19:26.000Z",
           "wordCount": 293,
           "title": "v1.3.0"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.3",
-          "author": null,
-          "description": "Changed: favicon update.",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.3",
-          "publishedOn": "2021-05-05T05:19:03.000Z",
-          "wordCount": 270,
-          "title": "v1.2.3"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.1",
-          "author": null,
-          "description": "Added: Display CLI version in footer.",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.1",
-          "publishedOn": "2021-05-05T05:18:52.000Z",
-          "wordCount": 273,
-          "title": "v1.2.1"
         }
       ]
     },
@@ -108,7 +108,7 @@
           "description": "Stefan Judis, two days before I mouthed off about using (X, X, X, X) for talking about specificity, has a great blog post not only using that format, but advocating that browser DevTools should show us that value by …\nThe post Should DevTools teach the CSS cascade? appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://www.stefanjudis.com/blog/should-devtools-teach-the-css-cascade/",
           "publishedOn": "2021-05-21T23:22:54.000Z",
-          "wordCount": 1166,
+          "wordCount": 1168,
           "title": "Should DevTools teach the CSS cascade?"
         },
         {
@@ -117,7 +117,7 @@
           "description": "This post is an accelerated introduction to Svelte from the point of view of someone with solid experience with React. I’ll provide a quick introduction, and then shift focus to things like state management and DOM interoperability, among other things. …\nThe post Svelte for the Experienced React Dev appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/svelte-for-the-experienced-react-dev/",
           "publishedOn": "2021-05-21T14:30:59.000Z",
-          "wordCount": 3256,
+          "wordCount": 3343,
           "title": "Svelte for the Experienced React Dev"
         },
         {
@@ -135,7 +135,7 @@
           "description": "Jonathan Neal tweeted a heck of a little CSS trick the other day, putting JSON inside CSS and plucking it out with JavaScript. Valid values for custom properties are quite liberal! So this looks for a CSS rule (e.g. a …\nThe post JSON in CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/json-in-css/",
           "publishedOn": "2021-05-20T22:29:53.000Z",
-          "wordCount": 929,
+          "wordCount": 1030,
           "title": "JSON in CSS"
         },
         {
@@ -216,7 +216,7 @@
           "description": "I see you. In the back there, behind JavaScript and React and PHP and all those “real” programming languages, I see you. And I appreciate you.\nThe post A Love Letter to HTML & CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/a-love-letter-to-html-css/",
           "publishedOn": "2021-05-17T14:27:22.000Z",
-          "wordCount": 2908,
+          "wordCount": 2963,
           "title": "A Love Letter to HTML & CSS"
         },
         {
@@ -469,7 +469,7 @@
       "articles": [
         {
           "id": "6098ce302cd0545b5e944d0b",
-          "author": "",
+          "author": null,
           "description": "In programming, an array is a collection of elements or items. Arrays store data as elements and retrieve them back when you need them.  The array data structure is widely used in all programming languages that support it. In this handbook, I'll teach you all about arrays in JavaScript. You'll",
           "link": "https://www.freecodecamp.org/news/the-javascript-array-handbook/",
           "publishedOn": "2021-05-21T15:33:45.000Z",
@@ -478,7 +478,7 @@
         },
         {
           "id": "60a6b3ab906c5207e3a7f5fa",
-          "author": "",
+          "author": null,
           "description": "Angular is one of the most popular web frameworks. We just released a course on the freeCodeCamp.org YouTube channel that will teach you how to create an Angular 11 project from scratch. It uses a public API to create a game database website. You will gain a great foundation",
           "link": "https://www.freecodecamp.org/news/angular-11-tutorial-code-a-project-from-scratch/",
           "publishedOn": "2021-05-20T19:14:48.000Z",
@@ -487,7 +487,7 @@
         },
         {
           "id": "60a694ab906c5207e3a7f544",
-          "author": "",
+          "author": null,
           "description": "A lot of C++ courses teach you how to build toy projects with no real-world application. But it can often be more helpful to write programs people would actually use. We just released a 5-hour C++ course that will teach you how to write modern C++ code by building an",
           "link": "https://www.freecodecamp.org/news/learn-modern-cpp-by-building-an-audio-plugin/",
           "publishedOn": "2021-05-20T17:12:29.000Z",
@@ -496,7 +496,7 @@
         },
         {
           "id": "60a4b5c7906c5207e3a7e2bb",
-          "author": "",
+          "author": null,
           "description": "In this tutorial, you'll learn what version control is and how you can contribute to open-source projects using Git.  We'll get through the fundamentals of Git and I'll give you the knowledge that is indispensable for any web developer. What is Git?Git is a version control software which lets",
           "link": "https://www.freecodecamp.org/news/get-started-with-version-control-and-git/",
           "publishedOn": "2021-05-20T15:20:53.000Z",
@@ -505,7 +505,7 @@
         },
         {
           "id": "60a36742906c5207e3a7da6e",
-          "author": "",
+          "author": null,
           "description": "Over the last four months, I have recorded what is probably the most interactive JavaScript course that has ever been created. The reason I have done this is because I often see new coders fall into the same pitfalls again and again when trying to learn JavaScript, with the most",
           "link": "https://www.freecodecamp.org/news/learn-javascript-interactive-course/",
           "publishedOn": "2021-05-20T14:53:38.000Z",
@@ -514,7 +514,7 @@
         },
         {
           "id": "60a341f5906c5207e3a7da61",
-          "author": "",
+          "author": null,
           "description": "CSS selectors are one of the most important parts of CSS. They give you the ability to target HTML elements on your web page that you want to style. Without CSS selectors, you wouldn't be able to style your page to look how you want. Thankfully CSS selectors have been",
           "link": "https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/",
           "publishedOn": "2021-05-19T23:17:21.000Z",
@@ -523,7 +523,7 @@
         },
         {
           "id": "60a42386906c5207e3a7dfe2",
-          "author": "",
+          "author": null,
           "description": "The internet is going through a paradigm shift. Learn the differences between Web2 and Web3, and why many developers and companies are shifting their approach in building apps.",
           "link": "https://www.freecodecamp.org/news/what-is-web3/",
           "publishedOn": "2021-05-19T21:09:01.000Z",
@@ -532,7 +532,7 @@
         },
         {
           "id": "60a469ec906c5207e3a7e1b9",
-          "author": "",
+          "author": null,
           "description": "Imagine that you work at Magic Money Corp, which runs on just three lines of JavaScript: let input = { step1: 'collect underpants' } doStuff(input)  profit(input) // $$$!!! Now imagine that something's wrong with doStuff and you need to take it down for maintenance. What happens if you temporarily comment out the second",
           "link": "https://www.freecodecamp.org/news/how-to-optimize-for-change-software-development/",
           "publishedOn": "2021-05-19T17:30:08.000Z",
@@ -541,7 +541,7 @@
         },
         {
           "id": "60a53182906c5207e3a7e588",
-          "author": "",
+          "author": null,
           "description": "Lately, I've been talking about my move into the Web3, Ethereum, and crypto space since making the switch from a traditional web, mobile, and cloud background. Since making that move, a shocking number of people have reached out to me who are also thinking about doing the same.  It's really",
           "link": "https://www.freecodecamp.org/news/breaking-into-ethereum-crypto-web3-as-a-developer/",
           "publishedOn": "2021-05-18T21:04:00.000Z",
@@ -550,7 +550,7 @@
         },
         {
           "id": "60a3780f906c5207e3a7db5f",
-          "author": "",
+          "author": null,
           "description": "If you offer your services as a freelance developer, you have a major say in how you price your project.  But how do you go about charging for a website project? \"Well, I just bill by the hour and send an invoice every week or month.\" ...I hear you say.",
           "link": "https://www.freecodecamp.org/news/the-different-ways-to-charge-for-a-website/",
           "publishedOn": "2021-05-18T17:12:59.000Z",
@@ -567,16 +567,16 @@
         {
           "id": "http://www.ruanyifeng.com/blog/2021/05/weekly-issue-159.html",
           "author": null,
-          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源（GitHub: ruanyf/weekly），欢迎提交 issue，投稿或推荐科技内容。\n周刊讨论区的帖子《谁在招人？》，提供大量程序员就业信息，欢迎访问或发布工作/实习岗位。\n封面图\n\n重庆市很多山地，地形复杂，产生了特有的奇观：被高架道路团团围住的楼盘。（via）\n本周话题：游戏开发者的年薪\n最近，推特上面有很多欧美的游戏开发者，晒自己的薪水，使用 #GameDevPaidMe 这个标签就能看到，从中可以了解国外程序员的收入。\n下面是一个美国开发者的发言。\n\n他有超过十年的开发经验，年薪是20多万美元。这还是在西雅图，如果在湾区，工资可能还会再高一些。这跟我听说的差不多，美国高级程序员的年薪，一般都会超过20万美元（约130万人民币）。\n我没想到的是，欧洲程序员的年薪，比美国少非常多。\n\n上面这个英国开发者，作为高级程序员，年薪居然才4万英镑（约36万人民币）。他入行时，更是少到1.5万英镑（约14万人民币）。欧洲其他国家的情况也差不多，年薪也就几万欧元，如果是东欧国家（比如波兰），薪水就更低了。\n这就是令我吃惊的地方， 西欧国家的人均 GDP 远高…",
+          "description": "这里记录每周值得分享的科技内容，周五发布。...",
           "link": "http://www.ruanyifeng.com/blog/2021/05/weekly-issue-159.html",
           "publishedOn": "2021-05-21T00:17:00.000Z",
-          "wordCount": 870,
+          "wordCount": 880,
           "title": "科技爱好者周刊（第 159 期）：游戏开发者的年薪"
         },
         {
           "id": "http://www.ruanyifeng.com/blog/2021/05/china-economy-explanation.html",
           "author": null,
-          "description": "重庆市前市长黄奇帆退休以后，受聘担任复旦大学特聘教授，定期给师生做讲座，介绍他对中国经济的看法。\n\n他的12次讲座，去年汇集成书出版了，书名叫做《分析与思考：黄奇帆的复旦经济课》。\n\n我最近读了以后，发现他在讲座中经常引用各种数字，而且会解释了背后的经济逻辑。怎么理解各种经济指标，怎么用它们指导经济政策，讲得深入浅出，我觉得很有价值。\n下面就是我从书中摘录的一些片段，相信可以帮大家更好地看懂中国经济。\n一、金融业产值\n中国经济的一个严重问题是，金融企业的产值过高。金融业增加值占 GDP 的比重是百分之八点几，全世界最高。世界金融业产值占全球 GDP 是5%左右。这个比重过高，意味着金融业吃掉了其它产业的利润。\n但是，如果仅仅统计中国的银行、证券、保险的金融增加值，其实也就是4%--5%。多出来的3%是非银行的金融企业形成的，包括信托、小贷、保理、担保公司、财务公司、互联网金融公司、私募基金等。\n现在银行的贷款利率一般在7%，到了信托公司，贷款成本一般都在12%以上，到了小贷公司就会上升到18%--20%。层层上升的资金成本，导致实体经济融资难、融资贵，利润就这样转移到了金融业。\n目前，中国企业的总负债是 GD…",
+          "description": "重庆市前市长黄奇帆退休以后，受聘担任复旦大学特聘教授，定期给师生做讲座，介绍他对中国经济的看法。...",
           "link": "http://www.ruanyifeng.com/blog/2021/05/china-economy-explanation.html",
           "publishedOn": "2021-05-19T12:54:48.000Z",
           "wordCount": 333,
@@ -585,14 +585,14 @@
         {
           "id": "http://www.ruanyifeng.com/blog/2021/05/weekly-issue-158.html",
           "author": null,
-          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源（GitHub: ruanyf/weekly），欢迎提交 issue，投稿或推荐科技内容。\n周刊讨论区的帖子《谁在招人？》，提供大量程序员就业信息，欢迎访问或发布工作/实习岗位。\n封面图\n\n首届中国国际消费品博览会在海口市开幕，开幕式有1000架无人机表演了不同的造型，照亮了夜空。（via）\n本周话题：内容渠道的贬值\n上周，美国的 Verizon 公司宣布，将以前收购的两个网站---- AOL 和 Yahoo ----一起打包卖掉，一共50亿美元。\n\n这是怎么回事呢？Verizon 是美国第二大通信商，运营 4G 和 5G 网络。几年前，它突然心血来潮，决定进军内容行业，不仅提供通信服务，还要提供内容。\n美国三大新闻门户网站，它一口气收购了第一名的 Yahoo（2017年45亿美元） 和第三名的 AOL（2015年44亿美元），另一家 MSN 属于微软，它动不了。\n\n买来以后，Verizon 就发现了真相，内容行业根本不行，非常难做，那些门户网站疲软不堪，业务毫无起色。去年又赶上了疫情，于是不想再撑了，决定认赔出局，抛售旗下的媒体资产，集中精力做无线通信。…",
+          "description": "这里记录每周值得分享的科技内容，周五发布。...",
           "link": "http://www.ruanyifeng.com/blog/2021/05/weekly-issue-158.html",
           "publishedOn": "2021-05-14T00:17:14.000Z",
-          "wordCount": 912,
+          "wordCount": 921,
           "title": "科技爱好者周刊（第 158 期）：内容渠道的贬值"
         }
       ]
     }
   ],
-  "cliVersion": "1.7.2"
+  "cliVersion": "1.8.1"
 }
