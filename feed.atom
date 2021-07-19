@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-18T01:01:12.213Z</id>
+    <id>urn:2021-07-19T01:00:00.740Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-18T01:01:12.214Z</updated>
+    <updated>2021-07-19T01:00:00.740Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -588,16 +588,6 @@ Thank you @PiyushLosalka]]></summary>
         <summary type="html"><![CDATA[Do you have to process data manually because it is served through images or scanned documents? An image-to-text conversion makes it possible to extract text from images to automate the processing of texts on images, videos, and scanned documents. In this article, we look at how to convert an image to text with React and Tesseract.js(OCR), preprocess images, and deal with the limitations of Tesseract (OCR).]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Ayobami Ogundiran)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Alternative Voice UI To Voice Assistants]]></title>
-        <id>https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/</id>
-        <link href="https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/"/>
-        <updated>2021-06-18T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Voice assistants are currently the most popular use case for voice user interfaces. However, due to the bad feedback loop resulting from voice assistants can only solve simple user tasks such as setting an alarm or playing music. In order for voice user interfaces to really break through, feedback to the user must be visual, not auditive.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Ottomatias Peura)</name>
         </author>
     </entry>
 </feed>
